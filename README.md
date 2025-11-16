@@ -27,15 +27,10 @@ BigQuery → Python (API) → DataFrames → Preprocessing → Modeling
 QL Analytics
 
 SQL is heavily used for:
-
 Failure trend analysis
-
 Component degradation statistics
-
 Flight-hours vs. wear correlations
-
 Maintenance intervals vs. failure probability
-
 Time-series aggregation for ML models
 
 This allows powerful analytics while keeping data processing efficient at scale.
@@ -47,55 +42,37 @@ After data ingestion and SQL analytics, the cleaned dataset is used to build:
 Failure prediction models
 
 Remaining Useful Life (RUL) estimators
-
 Anomaly detection models
 
 Techniques include:
 
 Random Forest
-
 Gradient Boosting Models
-
 Time-series feature engineering
-
 Statistical anomaly detection
 
 Key Features
 
 Automated ingestion pipeline from BigQuery
-
 SQL-based analytics for operational insights
-
 ML models for failure prediction
-
 Engine performance monitoring
-
 RUL estimation for high-risk components
-
 Clean, reproducible Python workflow
 
 Technologies Used
 
 Python (Pandas, NumPy, Scikit-Learn)
-
 Google BigQuery (SQL + API)
-
 SQL Analytics
-
 Jupyter Notebooks
-
 Matplotlib / Seaborn
-
 Machine Learning Models
 
 Insights Generated
 
 Patterns in aircraft engine degradation
-
 Correlation between flight cycles & component wear
-
 High-risk components with rising failure probability
-
 Optimized maintenance intervals
-
 Data-driven fleet health monitoring
