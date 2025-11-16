@@ -38,9 +38,7 @@ This allows powerful analytics while keeping data processing efficient at scale.
 Predictive Maintenance Modeling
 
 After data ingestion and SQL analytics, the cleaned dataset is used to build:
-
 Failure prediction models
-
 Remaining Useful Life (RUL) estimators
 Anomaly detection models
 
